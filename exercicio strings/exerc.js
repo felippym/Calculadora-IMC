@@ -1,21 +1,19 @@
-
-const nome = 'Luiz Otavio';
-const sobrenome = 'Miranda';
+const nome = "Luiz Otavio";
+const sobrenome = "Miranda";
 const idade = 30;
 const peso = 84;
-const altura = 1.80;
+const altura = 1.8;
 
-let imc = (peso/(altura*altura)); // peso / (alt x alt)
+let imc = peso / (altura * altura); // peso / (alt x alt)
 
-
-let anoDeNascimento = (2022-idade);
+let anoDeNascimento = 2022 - idade;
 
 console.log(imc);
 
 console.log(anoDeNascimento);
 
-console.log(nome, sobrenome, 'tem', idade, 'anos, pesa', peso, 'kgs' )
+console.log(nome, sobrenome, "tem", idade, "anos, pesa", peso, "kgs");
 
-const coco = null
+const coco = null;
 
 console.log(coco, coco);
