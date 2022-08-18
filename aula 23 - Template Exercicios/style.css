@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root {
+  --primary-color: #005661;
+}
+
+* {
+  box-sizing: border-box;
+  border: 0;
+}
+
+h1 {
+  font-family: 'Silkscreen', cursive;
+}
+
+body {
+
+
+  display: flex;
+  background-color: var(--primary-color);
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: aliceblue;
+  margin: auto;
+  width: 50%;
+  border-radius: 5px;
+  padding: 20px;
+  font-family: 'Open Sans', sans-serif;
+  ;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+
+input {
+
+  height: 35px;
+  margin-bottom: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.1)
+}
+
+
+button {
+
+  width: 100px;
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 8px;
+  color: aliceblue;
+}
+
+button:hover {
+
+  opacity: 0.9;
+
+
+}
